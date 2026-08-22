@@ -1,0 +1,122 @@
+Exemple 1: L'informe meteorològic clàssic (El més comú)
+Els alemanys enviaven cada matí a les 06:00 un part del temps. 
+Els criptoanalistes sabien exactament com començaria el text.
+•	Text Clar (Crib): WETTERBERICHTNULLSECHSNULL 
+    (Wetterbericht null sechs null null - Informe del temps 06:00)
+•	Text Xifrat interceptat: KLHFRTJYDUWONSTXBNOIWIZIGY
+•	Comprovació de regla Enigma: Fixa't que cap lletra de la mateixa 
+    posició coincideix (la primera W és una R, la segona E és una F, etc.). 
+    Si fessis coincidir una lletra (ex: que la quarta T fos una T al xifrat), 
+    la Bombe descartaria aquesta posició immediatament.
+
+Exemple 2: L'ordre de l'Almirallat (Naval)
+A la secció de Turing (Hut 8), sovint interceptaven missatges de la marina 
+que començaven amb fórmules molt rígides d'adreçament.
+•	Text Clar (Crib): ANDENCHEFDERADMIRALITAET 
+    (An den Chef der Admiralitaet - Al Cap de l'Almirallat)
+•	Text Xifrat interceptat: BQJWCMTYBZNLBFAKPLMCUUTW
+•	Utilitat per la Bombe: Aquest crib és excel·lent per a la simulació 
+    perquè conté moltes lletres repetides (com la E, la A i la D). 
+    Això permet al teu codi dibuixar un "menú" amb molts bucles lògics 
+    per descartar configuracions de rotors a gran velocitat.
+
+Exemple 3: El missatge curt de propaganda (Militar)
+Tot i que a la pel·lícula The Imitation Game es mostra com la clau principal, 
+a la realitat el "Heil Hitler" s'utilitzava més com a confirmació al final 
+dels missatges o en xarxes militars molt disciplinades.
+•	Text Clar (Crib): HEILHITLER
+•	Text Xifrat interceptat: ILGDMLHGWX
+•	Notes per a la simulació: És un text curt (10 lletres). 
+    En una Bombe real, un crib tan curt pot donar "falsos positius" 
+    (múltiples configuracions de rotors que encaixen per casualitat). 
+    Va molt bé per provar si la teva simulació és capaç de filtrar o 
+    gestionar stop-points secundaris.
+
+La relació entre Enigma i Bombe és un dels capítols més importants de la criptografia.
+Enigma era la màquina de xifrat electromecànica que feia servir l'exèrcit alemany durant la Segona Guerra Mundial. Per l'altre costat, la Bombe (o bomba criptològica) va ser el dispositiu electromecànic dissenyat pels aliats per desxifrar els missatges enemics de forma massiva i ràpida. [1, 2, 3]
+L'evolució del disseny
+•	L'origen polonès: El matemàtic Marian Rejewski va dissenyar la primera bomba kryptologiczna l'any 1938 a Polònia per trencar les primeres versions d'Enigma. [1, 2]
+•	El redisseny britànic: L'any 1939, amb la col·laboració de Gordon Welchman, Alan Turing va millorar radicalment el disseny a Bletchley Park per contrarestar les noves complicacions de l'Enigma de l'exèrcit alemany. [1, 2]
+Com funcionava la Bombe?
+•	Simulació en cadena: Una sola Bombe replicava el funcionament elèctric de fins a 36 màquines Enigma treballant en paral·lel.
+•	El truc del "crib" (text conegut): Els criptoanalistes buscaven o deduïen fragments de text previsibles en el missatge original, com ara parts de l'informe del temps ("Wettervorhersage"). [1, 2]
+•	La debilitat clau d'Enigma: El sistema alemany tenia una errada lògica fonamental: una lletra mai no es podria xifrar com a ella mateixa. [1]
+•	Descartar opcions: La Bombe no buscava directament la clau correcta, sinó que feia girar els seus tambors a gran velocitat per trobar contradiccions i descartar milers de combinacions impossibles per minut. [1]
+•	Treball final: Quan la màquina detectava una configuració sense contradiccions, s'aturava. Els operaris humans comprovaven aquesta combinació a mà per trobar la clau definitiva del dia.
+Vols saber algun detall més concret sobre la configuració dels rotors d'Enigma o prefereixes conèixer la història dels criptòlegs de Bletchley Park?
+
+Quantes eren les combinacions possibles dels rotors que havien d'analitzar? Eren més o menys un milió?
+No, eren moltes més d'un milió en total, tot i que la configuració base dels rotors sí que sumava aproximadament un milió de combinacions (exactament 1.054.560).
+Tot i això, el veritable maldecap per a la màquina Bombe no eren només els rotors, sinó el tauler de connexions frontals (Plugboard o Steckerbrett), que disparava la xifra total fins a un nombre astronòmic.
+Així es dividien les combinacions reals de la màquina Enigma estàndard de 3 rotors:
+1. El milió de combinacions dels rotors
+Per començar a buscar la clau, la Bombe havia de comprovar les configuracions mecàniques dels rotors:
+•	Ordre dels rotors: S'havien d'escollir 3 rotors d'un total de 5 disponibles. Això donava 60 combinacions possibles d'ordre.
+•	Posició inicial: Cada rotor tenia 26 lletres. Com que n'hi havia 3, les posicions possibles eren \(26 \times 26 \times 26 =\) 17.576 posicions.
+•	El total dels rotors: Multiplicant l'ordre per les posicions (\(60 \times 17.576\)), s'obtenen exactament 1.054.560 combinacions. Aquesta és la xifra propera al milió que recordaves!
+2. El multiplicador secret: El tauler de connexions
+El que feia pràcticament impossible desxifrar l'Enigma a mà era el tauler de cables intercanviables de la part frontal. Si s'interconnectaven 10 parells de lletres (el més habitual en l'exèrcit alemany), es creaven més de 150 bilions de combinacions elèctriques noves.
+
+Com ho solucionava la Bombe de Turing?
+El gran èxit d'Alan Turing i Gordon Welchman a Bletchley Park va ser dissenyar una drecera electrònica (anomenada Diagonal Board). Aquest invent aconseguia deduir i eliminar l'efecte del tauler de connexions de forma automàtica.
+Gràcies a això, la Bombe només s'havia de concentrar a provar visualment aquell milió de combinacions de rotors, una tasca que la màquina podia enllestir en uns 20 minuts.
+Vols que analitzem com funcionava exactament aquest tauler de connexions o t'interessa saber com va canviar la situació quan els alemanys van afegir un quart rotor a l'Enigma de la marina
+
+Si, per favor, m'interessa aprofundir en com aconseguien deduir i eliminar l'efecte del tauler de connexións.
+La clau per eliminar l'efecte del tauler de connexions (plugboard) va ser el disseny del Tauler Diagonal (Diagonal Board) d'en Gordon Welchman. Aquest component es va afegir a la Bombe de Turing i va ser el salt definitiu que va permetre rebatre el xifratge Enigma.
+Per entendre com funcionava la deducció, hem de veure la propietat mecànica de la màquina i la lògica deductiva que feia servir la Bombe.
+1. El concepte de Reciprocitat
+El tauler de connexions d'Enigma funcionava amb cables físics que unien lletres en parelles. Si connectaves la lletra A amb la lletra B mitjançant un cable:
+•	Si premeies la A, el corrent passava a la B abans d'entrar als rotors.
+•	Si premeies la B, el corrent passava a la A.
+Això s'anomena reciprocitat: si A està connectada a B, aleshores B està connectada a A. Sembla obvi, però va ser la seva debilitat.
+2. El "Crib" i la Hipòtesi
+Els criptoanalistes de Bletchley Park començaven amb un crib: un fragment de text que deduïen que existia en el missatge original.
+Per exemple, imaginem que dedueixen que en la posició 1 del text, la lletra xifrada W correspon a la lletra original E.
+Llavors la Bombe feia una suposició inicial (hipòtesi) sobre el tauler de connexions per començar a provar una posició de rotors concreta:
+•	Hipòtesi: Suposem que al tauler de connexions, la W està connectada amb la mateixa W (és a dir, no té cap cable connectat).
+3. La cascada elèctrica i la contradicció
+La Bombe feia passar corrent elèctric a través de rèpliques de circuits d'Enigma interconnectades segons el crib. Si la hipòtesi inicial (W = W) fos real, el corrent elèctric viatjava a través dels rotors de la màquina i, per una altra banda del circuit, deduïa una altra connexió, per exemple: E = G.
+Si el corrent continuava viatjant pels cables de la Bombe, de cop la màquina deduïa de forma lògica una cadena de connexions com aquesta:
+1.	Si W = W, aleshores E = G.
+2.	Si E = G, aleshores (per altres lletres del missatge) G = Z.
+3.	Si G = Z, aleshores... de cop arribava a: W = Q.
+Aquí es produïa una contradicció lògica gegantina: la lletra W no podia estar connectada a la W i a la Q al mateix temps (perquè cada lletra només podia tenir un cable elèctric).
+4. El Tauler Diagonal: El multiplicador de contradiccions
+Abans de l'invent de Welchman, la màquina havia de provar aquestes contradiccions d'una en una. El Tauler Diagonal era una matriu física de connexions elèctriques de 26x26 que aplicava la regla de la reciprocitat de cop a tot el sistema.
+Si el circuit detectava que "W està connectada a Q", el Tauler Diagonal connectava automàticament "Q a W" a tot el sistema de la Bombe a l'instant. Això provocava un efecte dominó de corrent elèctric:
+•	En lloc de trigar minuts a trobar una contradicció, una sola hipòtesi falsa inundava el Tauler Diagonal de corrent elèctric en mil·lisegons, activant pràcticament les 26 lletres alhora.
+•	Si el corrent elèctric arribava a 25 o a les 26 lletres d'un canal, la Bombe sabia matemàticament que la hipòtesi inicial era impossible.
+El resultat final
+Quan la Bombe feia girar els rotors i trobava una posició on el corrent elèctric no s'estenia a totes les lletres (és a dir, no hi havia contradicció), la màquina s'aturava.
+El corrent elèctric que quedava marcat en els indicadors de la Bombe en aquell moment exacte et deia, sense marge d'error, quines eren les lletres connectades pel tauler de cables dels alemanys per a aquell dia. S'havia eliminat el misteri dels 150 bilions de combinacions en una fracció de segon.
+T'ha quedat clar com el Tauler Diagonal feia servir el corrent elèctric per descartar les falses connexions, o vols veure un exemple pràctic simplificat de com es formava aquesta cadena de lletres?
+
+Si, per favor!
+Anem a veure un exemple molt simplificat de com el circuit elèctric de la Bombe i el Tauler Diagonal d'en Welchman descartaven les falses connexions del tauler de cables en menys d'un mil·lisegon.
+Imagina que els operaris de Bletchley Park han capturat un missatge que comença amb un text que ja coneixen (el crib): saben que les lletres teclejades de l'original són H-O-L-A, però el missatge xifrat que han rebut diu X-Y-Z-W.
+El muntatge mecànic
+La Bombe connecta de forma interna quatre de les seves pròpies màquines Enigma en cadena, situant cadascuna en la posició de gir dels rotors que correspon a cada lletra (posició 1, 2, 3 i 4).
+El circuit queda lligat d'aquesta manera lògica:
+•	Enigma 1 (posició 1): Connecta la lletra H amb la X.
+•	Enigma 2 (posició 2): Connecta la lletra O amb la Y.
+•	Enigma 3 (posició 3): Connecta la lletra L amb la Z.
+•	Enigma 4 (posició 4): Connecta la lletra A amb la W.
+El corrent elèctric entra en acció
+La màquina es posa a girar i es troba en una posició qualsevol dels rotors. En aquest instant exacte, envia un pols elèctric per començar a comprovar una hipòtesi:
+•	Hipòtesi inicial: Suposem que la lletra H està connectada a la mateixa H al tauler de cables frontals (és a dir, no té cable).
+Llavors s'inicia una reacció elèctrica en cadena a la velocitat de la llum:
+1.	Pas 1 (Enigma 1): Introduïm el corrent per la H. Segons la posició dels rotors en aquest moment, el corrent viatja per l'interior de la màquina Enigma 1 i surt per la lletra O. Això voldria dir que la lletra X (que anava associada a la H pel missatge) ara s'ha de connectar a la O.
+2.	Pas 2 (El Tauler Diagonal actua): Com que el Tauler Diagonal reflecteix la reciprocitat de manera automàtica, el fet que X estigui connectada a O fa que el corrent salti a l'instant a connectar O amb X.
+3.	Pas 3 (Enigma 2): El corrent entra ara per la O a la segona màquina Enigma. Per la configuració interna dels rotors en aquesta segona posició, el corrent surt per la lletra W. Això voldria dir que la lletra Y s'ha de connectar a la W.
+4.	Pas 4 (El Tauler Diagonal torna a actuar): Per reciprocitat, si Y es connecta a W, la lletra W es connecta a Y.
+5.	Pas 5 (Enigma 4): El corrent entra a la quarta màquina per la lletra W i, a causa dels rotors, surt transformat en la lletra H.
+La gran contradicció
+I aquí es tanca el cercle que fa esclatar la lògica:
+•	Havíem començat suposant que la lletra H s'havia de connectar a la H (Hipòtesi inicial).
+•	Després d'aquest breu recorregut elèctric per les màquines, el corrent ens diu que la lletra H s'ha de connectar a la Y.
+Com que un cable físic de la màquina Enigma real dels alemanys no pot estar connectat a dues lletres diferents a la vegada (la H no pot anar a la H i a la Y simultàniament), la hipòtesi inicial és totalment falsa.
+El rebuig en un instant
+Tota aquesta cascada elèctrica passava en una fracció de segon. Quan el corrent detectava aquesta incongruència, alimentava un relé elèctric que rebutjava automàticament aquella combinació de rotors i feia avançar la Bombe un pas més enllà per provar la següent posició, sense necessitat que cap humà hagués de calcular res.
+Només quan la màquina trobava una configuració de rotors on el corrent viatjava lliurement de lletra a lletra sense crear cap d'aquestes contradiccions dobles, la Bombe s'aturava en sec i feia sonar una campana. La configuració correcta del dia s'havia trobat.
+T'interessaria saber quants missatges alemanys s'arribaven a desxifrar cada dia a Bletchley Park gràcies a aquest mètode, o vols saber com van reaccionar els alemanys quan van sospitar que el seu sistema fallava?

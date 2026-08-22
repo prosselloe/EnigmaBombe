@@ -1,0 +1,98 @@
+Davant qualsevol projecte de programari com aquest allotjat i mantingut amb Firebase Studio, desenvolupat en Flutter/Dart has d’actuar com un Senior Developer, que ha de tenir almenys una formació en Informàtica de Cicle Formatiu Superior i almanys 15 anys d’experiència, que depèn directament del Project Manager i Product Owner que soc jo, un Llicenciat i Enginyer en Informàtica de Gestió de la especialitat d’Intel·ligència Artificial i amb una experiència de gairebé de 40 anys!
+En estar en un entorn integrat Firebase Studio, tu pots i has de llegir el codi font existent i proposar directament els canvis, que jo aprovaré si ho consider oportú. En el teu paper de Senior Developer, no tens un coneixement de tot el projecte, per la qual cosa, has de ser humil i demanar ajuda quan se’t puguin plantejar dubtes.
+En el mon de la programació, mai has de fer servir el teu mode “artista” sinó sempre el mode teu “enginyer”. Això implica res d’anar a lo fàcil d’aplicar solucions que estadísticament es fan servir a altres llocs, res de fer suposicions sobre el possible funcionament del codi existent, sinó sempre treballar amb certeses, analitzant en profunditat el codi abans de proposar la seva correcció o millora.
+En aquest sentit, sempre has de fer estrictament el que et demana el Project Manager que és que té contacte directe amb el Product Owner, ja que ambdós soc jo, per la qual cosa, coneix perfectament les seves necessitats. Amb això es pretén que no entris en una espiral o bucle de pegats damunt pegats que no fan res més que fer perdre el temps a tots els implicats. 
+Seguint amb la teva forma d’actuar, un bon Senior Developer gairebé sempre ha de ser capaç d’escriure qualsevol modificació de codi que funcioni a la primera. Si no és així, al tercer intent de correcció sense èxit, has de desfer els pegats que puguis haver fet, tornar a revisat el codi en profunditat, i tornar a fer una proposta diferent que hauria de funcionar a la primera. Tot això es torna a traduir bàsicament en que sempre actuis en mode “enginyer” i mai em mode “artista”. Aquí l’únic “artista” que hi pot haver soc jo!
+Només suggeriràs canvis quan el Project Manager t’ho demani explícitament, es a dir, una vegada que tenim el codi totalment operatiu passarem a una fase d’optimització de processos a la que si voldria propostes innovadores que puguis haver tret de la teva base de dades de projectes amb problemàtiques similars.
+Ho has entès tot i a patir d’ara actuaràs en conseqüència?
+
+Aquest és el primer intent de correcció sense èxit!
+Aquest és el segon intent de correcció sense èxit, i només et queda una possibilitat més per resoldre el problema fent servir aquesta via!
+Aquest és el tercer intent de correcció sense èxit, per la qual cosa, si no funciona, hauràs de desfer els tres canvis anteriors i plantejar una solució alternativa!
+
+Vull crear una aplicació per explicar el funcionament del sistema de criptografia de la màquina "Enigma" dels alemanys a la segona guerra mundial, i de la màquina electromecànica dels anglesos encomanada a Alan Turing i anomenada "Bombe". Em pots ajudar?
+He intentat xifrar un missatge però no trob la tecla per posar espais entre les paraules. Pot ser un descuit?
+Pots fer el desplegament del assets/images/logo.png a les platafomes Web i Android? Sembla que no has subtituit el favicon.png i les icones amb mides diferents de la plataforma Web!
+
+Tenies raò amb el fet de que la Enigma original no tenia bara d'espai, per la qual cosa, l'hauriem de tornar a treure. Per un alltre costat, tenc missatges d'exemple que voldria provar copiant i enganxant al quadre de text Entrada, cosa que no puc fer estar deshabilitat. Pots fer els canvis?
+Amb els canvis anteriors, com hauriem d'escriure amb el teclat un missatge tant comú com el temps a les 06:00: "Wetterbericht null sechs null null"? Hauriem d'escriure els "null" amb lletres o posar una "X" com hem vares suggerir anteriorment?
+Efectivament, segons el missatge "Analitzant configuracions... Això pot trigar una estona.", el procés és llarg i encara que dur una bona estona encara no ha trobat el resultat. Hi hauria qualque manera de fer una estimació del temps que podria dur? Podríem mostrar el temps que dur calculant i el número de combinacions analitzades? Estam fent servir les simplificacions matemàtiques que feia la Bombe d'Alan Turing per minimitzar la quantitat de combinacions a analitzar, i estam fent un atac per força bruta que podria dur dies de processament?
+
+Encara que he fet servir el primer exemple: WETTERBERICHTNULLSECHSNULLNULL que amb la configuració per defecte ens dóna com a sortida: KLHFRTJYDUWONSTXBNOIWIZIGYZZGW, la Bombe no troba resultats. Com és possible?
+Excel·lent però no apareix el Reflector i les possibles conexions del Panell!
+Em semblen molt bé aquests canvis, però en haver canviat a la Enigma el deflector i afegit una connexió al Panell, ara la Bomba no troba cap Parada Candidata. Com resolien això l'equip de Turing?
+
+Com t'he dit abans he canviat el Reflector a la posició C, he fet la simulació de la Bombe tant amb el Reflector en la posició B i la C, cosa que crec que hauria de fer-ho per defecte el simulador si no ha trobat cap combinació candidata, però així i tot no ha trobat cap possible solució ja que he incorporat una connexió CD al panell. Perquè no troba cap combinació canditada?
+Hauriem de millorar la nostra Bombe segons la següent informació: proves.txt
+Podries actualitzar history_screen.dart i el README.md per incorporar tota la informació que m'han anat donant sobre el funcionamament de la Enigma i la Bombe, així com la informació que t'he proporcionat que tens a proves.txt?
+
+Qualque cosa hem fet malament perquè amb un xifrat amb els paràmetres per defecte de la Enigma, KLHFRTJYDUWONSTXBNOIWIZIGYZZGW, sobre el text de proves WETTERBERICHTNULLSECHSNULLNULL, no troba cap parada candidata. Com és possible?
+Hem sembla molt bé proposta, però abans dels darrers canvis jo havia fet proves i funcionava perfectament!
+A l'emulador de Enigma apareix el següent missatge: rigth overflowed by 36 pixeles by 98 pixelsed by 98 pixels. Ho pots corregir?
+Segueix apareixent el missatges de rigth overflowed al teclat de la Enigma. Per cert, abans es mostrava en groc la lletra resultant a la tecla polsada, cosa que ara no fa. Ho pots revisar?
+
+La Bombe original, treballava amb quadre Enigma en cadena. Aquí ho feim de la mateixa manera? A més a més, la Bombe podia emular fins a 36 Enigma. Permetria això fer processament paral·lel?
+Ara no avança els comptador de combinacions provades, encara que si avança el comptador de temps! Per cert, la Bombe original s'aturava quan trobava una combinació i tocava un timbre. Podriem emular el funcionament original el més fidelment possible?
+En seleccionar la Enigma el focus no està a camp Entrada. El reflexe en groc de la tecla polsada no es correspon amb la que apareix a la cadena de xifrat. Ho pots tornar a comprovar?
+
+Així com podem seleccionar la posició dels tres rotors i del reflector a la Enigma, i a la Bombe tenim només el reflector, no seria més coherent que aquesta darrera pogués començar també per una posició seleccionada de rotors? 
+Efectivament, però la visualitzacció a la Bombe és molt pitjor que el de la Enigma, per aquest motiu es deman si podriem fer que el selector de la Bombe sigui igual que el de Enigma?
+L'aspecte de la posició inicial de rotors i reflector segueix essent molt pitjar a la Bombe. No pots copiar directament el de la Enigma? Per defecte a Enigma aquest desplegable esta tancat, o deixaràs igual?
+
+L'aspecte dels possadors de la Enigma no s'adapta a la mida de de la pantalla del dispositiu, cosa que si fa el reflexe de la polsació. Pots fer servir el mateix sistema de redimensionament? 
+Les tecles del reflexe es fam més grans si la pantalla es més ample, però les del teclat són fitxes i si no hi cab tota la filera a la pantalla, ocupen dues files. Pots fer que funcionin com les del reflexe? 
+Per cert, des de que em fet que el focus de la Enigma es situi a camp Entrada, en picar una segona tecla sobrescriu l'anterior. Pots fer que el focus només s'hi resitui quan seleccionam la pantalla?
+
+La configuració inicial de la cerca de Bombe no permet triar quins dels cinc rotors es trien per a cada un dels tres rotors com es permet a la pantalla de la Enigma. 
+De fet, per això ara tenc dubtes que l'anàlisi de desxifrat de Bombe tengui em compta aquesta possibilitat. Ho pots comprovar i corregir?
+
+He xifrat la dada de prova WETTERBERICHTNULLSECHSNULL canviant la configuració de Rotors i Reflector de la següent manera: 
+Rotor 1: V, Posició: Z; Rotor 2: IV, Posició: Y; Rotor 3: III, Posició: X; Reflector: C; obtenint el resultat 
+OWEZDFTQXYRTPVNQWZTRQLVQHM que he passat per Bombe que dona el missatge: Cerca completada. No s'han trobat parades candidates. 
+He pogut comprovar que no ha provat el deflector C!
+
+Segueix fallant i ara em mostra que ha de comprovar més de 6 milions de combinacions quan només han de ser poc més d'un milió.!
+Ara la pantalla de Bombe, manté les dades de mostra que t'he proporcionat, i el botó "Començar Anàlisi" està deshabilitat. Perquè has fet aquest canvi?
+Segueix sense torbar cap parada candidata! D'on has tret les 105.456 combinacions possible quan com teniem abans en són 1.054.560 combinacions:
+
+Encara tenim la Configuració Inicial de Cerca a la Bombe quan haviem quedat que no era convenient tenir-la ja que s'han de comprovar totes 
+les combinacions fins arribar a la primera Parada Candidata, que hauria d'aturar la cerca i tocar una campana. Ho pots revisar novament? 
+El botó de provar a l'Enigma no se ben bé que fa, però seria útil si en polsar-lo, a més a més de canviar a la pantalla de Enigma, 
+hi carregàs la combinació trobada i el text xifrat per decodificar tot el missatge. Ho modifiques per tal que tengui aquesta utilitat?
+Ho he tornat a provar, i el botó no carrega la combinació trobada ni el text xifrat. Ho pots tornar a revisar?
+
+Ara que tenim l'aplicació totalmente operativa, podriem tornar a intentar afegir una nova opció, ja que no vull tocar  l'actual que funciona correctament, 
+amb el que feia la Bombe original, que podia emular fins a 36 Enigma. Això hauria de permetre fer processament paral·lel i millorar el rendiment del nostre emulador.
+Vull publicar l'aplicació a Google Play. Pots comprovar si està preparada?
+No l'haviem de generar ja que tenc la clau generada i carregada a android/app!
+
+Voldria incorporar les imatges Enigma.jpg, Bombe.jpg, Alan_Turing.jpg a més a més del logo.png actual; així com les URL's següents:
+    https://ca.wikipedia.org/wiki/M%C3%A0quina_Enigma
+    https://ca.wikipedia.org/wiki/Bombe
+    https://ca.wikipedia.org/wiki/M%C3%A0quina_de_Turing
+a la history_screen.dart. Ho podries fer?
+
+Et sembla que hi podriem incorporar un simulador de la màquima Turing, de la mateixa manera que tenim els Enigma i Bombe?
+M'agrada molt l'aspecte visual amb els moviments de cada un dels passos del simulador de màquina de Turing. Podriem incorporar també efectes visuals a les altres dues màquines?
+Els rotors de Bombe, només són tres botons sense moviment. On és l'animació? Per cert, com ha passat a altres aplicacions, la barra inferior de l'Android amaga la part inferior de les pantalles de l'aplicació. Ho podries corregir?
+
+Els rotors de Bombe segueixen sense simular cap moviment, i després de bastantes proves només he aconseguit que canvií un dels rotors a Enigma. Ho pots tornar a revisar?
+Podriem afegir els programes més habituals a la màquina de Turing, per exemple incorporant un desplegable a "Entrada de la Cinta" on per defecte podem deixar el que ara tenim?
+Els rotors de Bombe segueixen sense simular cap moviment! Ja que cap dels canvis anteriors ha funcionat, podriem fer just que vagin canviant de colors de forma aleatòria?
+
+Ara que tenim els rotors que canvien de color correctament, crec que ens podriem apropar a l'efecte de rotació si hi posam un cercle concentric interior més petit que sembli el seu eix, de color clar com a Bombe original, i que el color aleatori sigui un degradat enlloc de solid. Ho podries implementar?
+Excel·lent! Ara, ja que les imatges de history_screen.dart apareixen retallades, podriem fer que en polsar sobre elles es vessin completes?
+A l'apartat de: El Mètode de la Bombe: El "Crib", podriem incloure al final del text la taula següent:
+01	02	03	04	05	06	07	08	09	10	11	12	13	14	15	16	17	18	19	20	21	22	23
+R	W	I	V	T	Y	R	E	S	X	B	F	O	G	K	U	H	Q	B	A	I	S	E
+W	E	T	T	E	R	V	O	R	H	E	R	S	A	G	E	B	I	S	K	A	Y	A
+Sembla que en algún moment hem desabilitat la possibilitat d'introduir el text als camps d'entrada de Enigma, Bombe i Turing; amb el teclat del dispositiu android. Pot tornar a habilitar-lo?
+
+Quan a bombe_screen.dart trobam una Parada Candidata, ens oferix la possibilitat de provar-la a enigma_screen.dart, però si aquesta no és correcte i tornam a Bombe, el botó de Comença Anàlisi no continua amb el procés de cercar la propera Parada Candidata. Ho pots corregir?
+Quan seleccionam i visualitzam una imatge a history_screen.dart, en sortir de la visualització ens mostra el teclat d'Android, cosa que no té cap sentit a una pantalla exclusivament de consulta com aquesta. Ho pots corregir?
+El selector d'aplicacions comunes de turing_screen.dart, mostra el nom complet de cada una i solapa el nom de l'actual de la part esquerra. Pots limitar la mida del selector?. Hi podem afegir una altre apliació d'exemple de suma de dos números?
+Podriem incorporar un botó a enigma_screen.dart per enviar el xifrat realitzat a bombe_screen.dart per tal de provar Bombe?
+
+El botó de Provar a la Bombe de enigma_screen.dart no funciona. El pots revisar?
+La informació que ara traspassa el botó de Provar a la Bombe de enigma_screen.dart és a l'enrevés, ja que posa l'Entrada al Text Xifrat i la Sortida al Crib!
+Prodries actualitzar tant el README.md i el blueprint.md amb el darrers canvis?
